@@ -9,4 +9,6 @@
 Console.WriteLine("Enter number : ");
 string strNum = Console.ReadLine();
 int num = Convert.ToInt32(strNum);
-Console.WriteLine(num * num);
+int sqr = num * num ;
+Console.WriteLine($"sqr = {sqr}");
+
