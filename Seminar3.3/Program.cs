@@ -16,12 +16,12 @@ if (deposit < 100)
   deposit = deposit * 1.05;
   System.Console.WriteLine($"{deposit}");
 }
-else if (deposit > 100 && deposit < 200)
+else if (deposit >= 100 && deposit < 200)
 {
   deposit = deposit * 1.07;
   System.Console.WriteLine($"{deposit}");
 }
-else
+else if (deposit >= 200)
 {
   deposit = deposit * 1.1;
   System.Console.WriteLine($"{deposit}");
